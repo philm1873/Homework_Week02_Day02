@@ -12,12 +12,13 @@ class Bear
     fishes.delete(fish_caught)
   end
 
-  def bear_roar(roar)
+  def bear_roar(roar, river)
+    river.river_fish = []
     return roar
   end
 
   def food_count
     @bear_stomach.length
-  end  
+  end
 
 end

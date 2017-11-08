@@ -1,5 +1,6 @@
 class River
-  attr_reader :river_name, :river_fish
+  attr_reader :river_name
+  attr_accessor :river_fish
 
   def initialize(input_river_name, input_river_fish)
     @river_name = input_river_name
